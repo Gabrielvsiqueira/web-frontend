@@ -1,0 +1,42 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: rgba(87, 85, 85, 0.132);
+}
+h1{
+    background-color: rgba(0, 119, 255, 0.226);
+    color: rgba(21, 21, 120, 0.933);
+    text-align: center;
+    padding: 5px;
+    font-size: 45px;
+    margin: auto;
+}
+.subtitulo {
+    text-align: center;
+    color: gray;
+}
+.trabalho {
+    color: rgb(92, 82, 82);;
+}
+h2 {
+    color: rgba(21, 21, 120, 0.933);
+    margin-bottom: auto;
+    background-color: rgba(128, 128, 128, 0.267);
+    padding: 14px;
+    font-size: 36px;
+    border-bottom: 3px solid;
+}
+.conteudo{
+    color: gray;
+}
+a{
+    font-weight: bold;
+    text-decoration: blue;
+}
+.minha-lista{
+    margin-bottom: 20px;
+    list-style-position:outside;
+    padding-left: 18px;
+
+}
