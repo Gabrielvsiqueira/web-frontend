@@ -15,9 +15,23 @@ h1{
 .subtitulo {
     text-align: center;
     color: gray;
+    background-color:  rgba(109, 120, 217, 0.324);
+    padding-top: 0;
+    margin-top: 0;
+}
+.top-menu{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu {
+    background-color: rgb(201, 195, 195);
+    display:inline-block;
+    margin: 5px;
+    padding: 40px;
+    border: 1px solid black;
 }
 .trabalho {
-    color: rgb(92, 82, 82);;
+    color: rgb(92, 82, 82);
 }
 h2 {
     color: rgba(21, 21, 120, 0.933);
@@ -38,5 +52,4 @@ a{
     margin-bottom: 20px;
     list-style-position:outside;
     padding-left: 18px;
-
 }
