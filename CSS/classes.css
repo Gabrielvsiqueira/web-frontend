@@ -1,0 +1,12 @@
+body {
+    background-color:rgb(15, 15, 15);
+    color: aliceblue;
+    font-size: 25px;
+}
+h1 {
+    color: red;
+}
+.destaque {
+    background-color: green;
+    font-weight: bold;
+}
