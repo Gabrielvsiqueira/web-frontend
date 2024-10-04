@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+}
+
+.hero{
+    background-image: url(./Ref/imagens/bg-3.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: right center;
+    padding: 1px;
+}
+.hero nav ul{
+    margin: 20px 50px 0 0;
+    text-align: right;
+}
+
+.hero nav li {
+    background-color: #ccc;
+    display: inline-block;
+    list-style-type: none;
+    border: 1px solid #ffffff;
+    margin-left: 16px;
+}
+
+.hero nav a{
+    background-color: rgba(0, 0, 0, .3);
+    padding: 16px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover{
+    background-color: rgba(0,0,0,.5)
+}
+
+.hero-content{
+    margin: 80px auto 0 auto;
+    width: 80%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.hero-content h1{
+    font-size: 50px;
+    text-shadow: 2px 2px 2px black;
+    text-transform: uppercase;
+}
+
+.hero-content p{
+    background-color: rgba(0,0,0,0.7);
+    font-size: 18px;
+    display: inline-block;
+    padding: 17px;
+    border-bottom: 2px solid;
+}
+
+main{
+    width: 80%;
+    margin: auto;
+    min-width: 400px;
+    max-width: 900px;
+}
+
+section{
+    padding-top: 32px;
+}
+
+article{
+    background-color: #ffffff;
+    padding: 16px;
+    margin-bottom: 50px;
+}
+article header {
+    background-color: #9d9a9a;
+    font-size: 17px;
+    padding: 2px;
+    background-color: rgba(0,0,0,.2);
+    border-bottom: 2px solid #737272;
+}
+
+article p{
+    margin-bottom: 22px;
+}
+
+article a{
+    background-color: #e9e5e5;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 19px;
+}
+
+.rodape{
+    background-color: rgba(0,0,0,.3);
+    color: white;
+    padding: 30px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+}
